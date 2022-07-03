@@ -41,5 +41,6 @@ app.use((req, res, next) => {
 //routes
 app.use('/api', auth)
 app.use('/api', users)
+app.use('/', express.static(path.join(__dirname, 'public')))
 
 export default app;
