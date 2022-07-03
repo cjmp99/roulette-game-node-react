@@ -17,7 +17,7 @@ const auth_1 = __importDefault(require("./routes/auth"));
 const users_1 = __importDefault(require("./routes/users"));
 dotenv_1.default.config();
 //settings
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 80);
 // middlewares
 app.use(express_1.default.json());
 (0, app_1.initializeApp)({

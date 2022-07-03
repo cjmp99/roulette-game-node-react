@@ -14,7 +14,7 @@ import users from './routes/users'
 dotenv.config();
 
 //settings
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 80);
 
 // middlewares
 app.use(express.json());
