@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const jwt_1 = require("../../helpers/jwt");
+const users_1 = require("../../controllers/users");
+const router = (0, express_1.Router)();
+router.route('/users/:id').get(jwt_1.checkSession, users_1.getInfoUser);
+router.route('/users/:id').put(jwt_1.checkSession, users_1.updateTurns);
+router.route('/users/:id/:qty').put(jwt_1.checkSession, users_1.claimRewards);
+exports.default = router;
