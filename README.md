@@ -13,3 +13,7 @@
 - npm install
 - the .env located roulette-game-node-react/.env change variable GOOGLE_APPLICATION_CREDENTIALS=C:\Users\YOUR_USER\Desktop\game-test-backend\firebase.json where "YOUR_USER" must be replaced by the user of your windows pc
 - npm start
+
+# Credentials for signin app
+test@gmail.com
+123456
