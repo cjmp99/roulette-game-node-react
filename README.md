@@ -6,12 +6,10 @@
 
 - Backend app show http://localhost:4000/api
 
-# COMANDS
+# Steps for run app
 
-- npm run dev: server running typescript code mode development
-
-- npm run build: ejecute tsc for build code typescript to javascript
-
-- npm run clean: ejecute rimraf for delete folder dist generated to (npm run build)
-
-- npm start: server running from folder /dist compilated from typescript
+- git clone this repo (!important clone in desktop Windows)
+- cd roulette-game-node-react
+- npm install
+- the .env located roulette-game-node-react/.env change variable GOOGLE_APPLICATION_CREDENTIALS=C:\Users\YOUR_USER\Desktop\game-test-backend\firebase.json where "YOUR_USER" must be replaced by the user of your windows pc
+- npm start
